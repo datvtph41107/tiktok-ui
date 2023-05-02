@@ -1,0 +1,31 @@
+.wrapper {
+    width: 356px;
+    padding: 20px 0 26px 8px;
+    margin-left: -18px;
+    position: fixed;
+    height: 695px;
+    overflow-y: overlay;
+    overscroll-behavior-y: contain;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper:hover::-webkit-scrollbar {
+    /* webkit-scrollbar thuộc tính */
+    width: 4px;
+    height: 10px;
+    display: block;
+}
+.wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+}
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #e3e3e4;
+}
+.wrapper::-webkit-scrollbar-thumb:hover {
+    background: #e3e3e4;
+}
